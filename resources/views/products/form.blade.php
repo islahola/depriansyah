@@ -17,34 +17,44 @@
 
                     <div class="box-body">
                         <div class="form-group">
-                            <label >Name</label>
+                            <label >Nama Barang</label>
                             <input type="text" class="form-control" id="nama" name="nama"  autofocus required>
                             <span class="help-block with-errors"></span>
                         </div>
 
                         <div class="form-group">
-                            <label >Price</label>
+                            <label >Harga Barang</label>
                             <input type="text" class="form-control" id="harga" name="harga"   required>
                             <span class="help-block with-errors"></span>
                         </div>
 
                         <div class="form-group">
-                            <label >Quantity</label>
+                            <label >Jumlah barang</label>
                             <input type="text" class="form-control" id="qty" name="qty"   required>
                             <span class="help-block with-errors"></span>
                         </div>
-
-
+                        
                         <div class="form-group">
-                            <label >Image</label>
-                            <input type="file" class="form-control" id="image" name="image" >
+                            <label >Satuan Barang</label>
+                            {!! Form::select('category_id', $category, null, ['class' => 'form-control select', 'placeholder' => '-- Pilih satuan barang --', 'id' => 'category_id', 'required']) !!}
                             <span class="help-block with-errors"></span>
                         </div>
 
                         <div class="form-group">
-                            <label >Category</label>
-                            {!! Form::select('category_id', $category, null, ['class' => 'form-control select', 'placeholder' => '-- Choose Category --', 'id' => 'category_id', 'required']) !!}
+                            <label >Kode barang</label>
+                            <input type="text" class="form-control" id="kode" name="kode"   required>
                             <span class="help-block with-errors"></span>
+                        </div>
+
+                        <div class="form-group">
+                        <label style="width:100%">Status Produk 
+                            <select name="status" aria-controls="products-in-table" class="form-control select" placeholder = '--Produk Tersedia --'>
+                                <option >Tersedia</option>
+                                <option>Tidak Tersedia</option>
+                            </select> 
+                        </label>
+                                                
+                        <span class="help-block with-errors"></span>
                         </div>
 
 

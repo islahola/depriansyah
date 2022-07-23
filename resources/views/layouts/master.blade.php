@@ -118,11 +118,11 @@
     <footer class="main-footer">
         <!-- To the right -->
         <div class="pull-right hidden-xs">
-            Anything you want
+           Kelompok berapa ?
         </div>
         <!-- Default to the left -->
         <?php $date = date('Y')?>
-        <strong>Copyright &copy; {{$date}} <a href="#">Revan</a>.</strong> All rights reserved.
+        <strong>Copyright &copy; {{$date}} <a href="#">Depriansyah</a>.</strong> All rights reserved.
     </footer>
 
     <!-- Control Sidebar -->

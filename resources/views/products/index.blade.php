@@ -23,10 +23,12 @@
                 <tr>
                     <th>ID</th>
                     <th>Nama</th>
-                    <th>Harga</th>
-                    <th>QTY</th>
-                    <th>Image</th>
-                    <th>Category</th>
+                    <th>Harga Beli</th>
+                    <th>Jumlah Barang</th>
+                    <th>Satuan barang</th>
+                    <th>Kode Barang</th>
+                    <th>Status</th>
+                    <th>action</th>
                     <th></th>
                 </tr>
                 </thead>
@@ -73,8 +75,9 @@
                 {data: 'nama', name: 'nama'},
                 {data: 'harga', name: 'harga'},
                 {data: 'qty', name: 'qty'},
-                {data: 'show_photo', name: 'show_photo'},
                 {data: 'category_name', name: 'category_name'},
+                {data: 'kode', name: 'kode'},
+                {data: 'status', name: 'status'},
                 {data: 'action', name: 'action', orderable: false, searchable: false}
             ]
         });
