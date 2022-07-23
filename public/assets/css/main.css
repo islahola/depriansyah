@@ -1019,7 +1019,7 @@ ul.activity-list > li {
     width: 58%;
     height: 100%;
     position: relative;
-    background-image: url("../../assets/img/login-bg.jpg");
+    background-image: url("https://file.maukuliah.id/img/gallery/031068/maukuliah-1634206505.jpg");
     background-repeat: no-repeat;
     background-size: cover; }
     .auth-box .right:before {
@@ -1586,7 +1586,13 @@ ul.activity-list > li {
   background-color: #2ebd59 !important; }
   .spotify-bg:hover, .spotify-bg:focus {
     background-color: #29a84f !important; }
-
+.logo.logo-baru{
+  margin:0 auto;
+  width:250px;
+}
+.logo img{
+  width: 100%;
+}
 .squarespace-bg {
   background-color: #222222 !important; }
   .squarespace-bg:hover, .squarespace-bg:focus {

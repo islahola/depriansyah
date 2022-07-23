@@ -18,7 +18,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
     <!-- ICONS -->
     <link rel="apple-touch-icon" sizes="76x76" href="{{asset('assets/img/apple-icon.png')}}">
-    <link rel="icon" type="image/png" sizes="96x96" href="{{asset('assets/img/favicon.png')}}">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://file.maukuliah.id/img/logo/maukuliah-1629966560.png">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                     <div class="left">
                         <div class="content">
                             <div class="header">
-                                <div class="logo text-center"><img src="{{asset('assets/img/logo-dark.png')}}" alt="Klorofil Logo"></div>
+                                <div class="logo logo-baru text-center"><img src="{{asset('assets/img/logo.png')}}" alt="Klorofil Logo"></div>
                                 <p class="lead">Login ke akun anda</p>
                             </div>
                             <form class="form-auth-small" method="POST" action="{{ route('login') }}">

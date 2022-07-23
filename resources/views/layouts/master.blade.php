@@ -24,6 +24,7 @@
           page. However, you can choose any other skin. Make sure you
           apply the skin class to the body tag so the changes take effect. -->
     <link rel="stylesheet" href="{{ asset('assets/dist/css/skins/skin-blue.min.css')}} ">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://file.maukuliah.id/img/logo/maukuliah-1629966560.png">
 
 @yield('top')
 
